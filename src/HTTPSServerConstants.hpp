@@ -15,7 +15,7 @@
 #ifdef HTTPS_LOGTIMESTAMP
   #define HTTPS_LOGTAG(LVL) Serial.printf("[HTTPS:" LVL ":%10lu] ", millis())
 #else
-  #define HTTPS_LOGTAG(LVL) Serial.print("[HTTPS:" LVL "] ")
+//  #define HTTPS_LOGTAG(LVL) Serial.print("[HTTPS:" LVL "] ")
 #endif
 
 #if HTTPS_LOGLEVEL > 0
